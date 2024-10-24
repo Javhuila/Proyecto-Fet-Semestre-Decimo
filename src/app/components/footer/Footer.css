@@ -1,0 +1,108 @@
+.modal-footer {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+}
+
+.about-modal-footer {
+	display: flex;
+	flex-direction: row;
+	background-color: gray;
+	height: 80px;
+  padding-left: 40px;
+}
+
+.description-modal-footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	align-items: center;
+}
+
+.title-description-modal-footer {
+	font-family: sans-serif;
+  font-weight: bold;
+}
+
+.text-description-modal-footer {
+	display: flex;
+	padding-top: 4px;
+}
+
+.text-description-modal-footer a {
+	font-size: 12px;
+	color: black;
+}
+
+.contacto-modal-footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	align-items: center;
+}
+
+.title-contacto-modal-footer {
+	display: flex;
+	font-family: sans-serif;
+  font-weight: bold;
+}
+
+.info-contacto-modal-footer {
+	display: flex;
+	flex-direction: column;
+}
+
+.email-info-contacto-modal-footer a {
+	font-size: 12px;
+  font-family: sans-serif;
+	color: #171717;
+}
+
+.celphone-info-contacto-modal-footer a {
+	font-size: 12px;
+  font-family: sans-serif;
+	color: #171717;
+}
+
+.redes-modal-footer {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+}
+
+.title-redes-modal-footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.title-redes-modal-footer a{
+  color: #171717;
+  font-weight: bold;
+}
+
+.iconos-redes-modal-footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.all-icons{
+padding: 0 5px;
+}
+
+.copyright-modal-footer {
+	height: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.copyright-modal-footer a{
+	font-size: 10px;
+}

@@ -1,0 +1,108 @@
+/* Estilos globales */
+:root{
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	background-color: #171717;
+	display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+a {
+	color: #cccccc;
+	font-family: sans-serif;
+}
+
+/* Estilos de la pagina home */
+.module-home {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+}
+
+.welcome-title {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	height: 130px;
+}
+
+.text-welcome-title {
+	color: #cccccc;
+	font-family: sans-serif;
+}
+
+.description-module-home {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	margin-bottom: 20px;
+}
+
+.info-description-module-home {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	height: 100%;
+}
+
+.text-info-description-module-home {
+	display: flex;
+	justify-content: center;
+}
+
+.text-info-description-module-home a {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	font-size: 18px;
+	width: 100%;
+	height: 250px;
+	align-items: center;
+}
+
+.btn-info-description-module-home {
+	display: flex;
+	justify-content: center;
+}
+
+.btn-show-courses {
+	display: flex;
+	height: 40px;
+	width: 100px;
+	background-color: #ffc100;
+	align-items: center;
+	justify-content: center;
+	font-size: 16px;
+	font-family: sans-serif;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.btn-show-courses:hover{
+	background-color: #ffdd78;
+}
+
+.btn-show-courses a{
+	text-decoration: none;
+	color: #171717;
+}
+
+.img-logo-corp-module-home {
+	display: flex;
+	align-items: center;
+}
+
+.img-logo-corp-module-home img{
+  border-radius: 20px;
+}

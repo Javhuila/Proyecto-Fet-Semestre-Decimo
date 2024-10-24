@@ -1,0 +1,77 @@
+.modal-course-selected{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.info-modal-course-selected{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #cccc;
+  font-family: sans-serif;
+}
+
+.title-info-modal-course-selected{
+  margin: 20px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.description-info-modal-course-selected{
+  margin: 20px;
+  font-size: 20px;
+}
+
+.step-info-modal-course-selected{
+  margin: 20px;
+  font-size: 16px;
+  text-align: justify;
+  width: 500px;
+}
+
+.pay-modal-selected{
+  display: flex;
+  color: #cccc;
+  font-family: sans-serif;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img-pay-modal-selected{
+  margin: 20px;
+}
+
+.price-pay-modal-selected{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.title-price-pay-modal-selected{
+  font-size: 30px;
+}
+
+.course-price-pay-modal-selected{
+  margin: 10px;
+  font-size: 30px;
+}
+
+.btn-buy-course-pay-modal-selected{
+  font-size: 18px;
+    background-color: #ffc100;
+    border: none;
+    border-radius: 12px;
+    margin: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.btn-buy-course-pay-modal-selected:hover{
+  background-color: #ffdd78;
+}
